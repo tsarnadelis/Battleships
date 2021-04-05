@@ -14,6 +14,7 @@ class Ship{
 		bool isHorizontal;
 		int x;
 		int y;
+		//---Operations--
 };
 
 class Carrier :public Ship{
