@@ -15,7 +15,7 @@ class Ship{
 		int x;
 		int y;
 		//---Operations--
-		//this is a test line
+		
 };
 
 class Carrier :public Ship{
