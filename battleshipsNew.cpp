@@ -39,7 +39,6 @@ class Player{
 		
 		void placeShips(){
 			Carrier carrier;
-			Board board;
 			cout<<name<<" is placing ships."<<endl;
 			cout<<"You can have one Carrier.Incert X,Y Coordinates and 0 for horizontal,1 for vertical(X,Y,Z):";
 			cin>>carrier.x>>carrier.y>>carrier.isHorizontal;
