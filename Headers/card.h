@@ -5,8 +5,7 @@
 #include "player.h"
 
 /**
- * Class denoting a card. This class has to be extended in order to
- * provide the type of card (PointCard or MoveCard).
+ * Class denoting a card.
  */
 class Card {
 private:
@@ -26,7 +25,6 @@ public:
 
     /**
      * Deletes the card (does nothing).
-     * You must not implement this method.
      */
     virtual ~Card(){};
 
@@ -46,7 +44,6 @@ public:
 
     /**
      * Implements the action of the card (point action or move action).
-     * This function has to be implemented in classes extending this card class.
      *
      * @param player the player that has drawn the card.
      * @param opponent the opponent that participates in the card action.
@@ -75,10 +72,6 @@ public:
     /**
      * Implements the point action between the player and the opponent and player.
      * Transfers the number of points of this card from the player to the opponent.
-     *
-     * Hint: there are positive and negative points indicating whether the points must
-     *       be added or removed. When adding a number of points to the player, the same
-     *       number of points exactly must be removed from the opponent.
      *
      * @param player the player that has drawn the card.
      * @param opponent the opponent that participates in the card action.

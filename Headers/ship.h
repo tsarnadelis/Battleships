@@ -87,8 +87,6 @@ public:
     /**
      * Checks if the ship occupies a specific square that is given.
      *
-     * Hint: we can use the equals method of the Square to check if the square given is equal to another square.
-     *
      * @param square the square to be checked if it occupies the ship.
      * @return true if the ship occupies the square that is given, or false otherwise.
      */
@@ -96,9 +94,7 @@ public:
 
     /**
      * Finds and returns the number of hit squares in this ship.
-     *
-     * Hint: we can use the isHit method of the Square to check if a square of the ship is hit.
-     *
+     * 
      * @return the number of hits in this ship.
      */
     int getNumberOfHits();
