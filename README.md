@@ -1,4 +1,2 @@
-# Battleships
-
-
-Ομάδα 058 Battleships Game σε C++ 2021
+# Battleship-Semester-Assignment
+ Assignment for the 2nd semester course Object Oriented Programming at ECE AUTH.
